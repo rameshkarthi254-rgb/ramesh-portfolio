@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>RAMESH R | Student Portfolio</title>
+    <meta name="description" content="RAMESH R's student portfolio showcasing education, skills, projects and contact information.">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#home" class="logo">RAMESH<span>.</span></a>
+
+            <button class="menu-toggle" id="menuToggle"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+                aria-controls="navLinks">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Home -->
+        <section class="hero section" id="home">
+            <div class="container hero-grid">
+
+                <div class="hero-content">
+                    <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+
+                    <h1>Hello, I'm <span>RAMESH R</span></h1>
+
+                    <h2>IT Student & Aspiring Web Developer</h2>
+
+                    <p class="hero-description">
+                        I am an Information Technology student passionate about
+                        web development, creative design and building useful
+                        digital experiences. I enjoy learning new technologies
+                        and turning ideas into simple, attractive websites.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            Explore My Projects
+                        </a>
+                        <a href="#contact" class="btn btn-outline">
+                            Contact Me
+                        </a>
+                    </div>
+
+                    <div class="quick-info">
+                        <span>🎓 B.Sc. Information Technology</span>
+                        <span>💻 Frontend Development</span>
+                    </div>
+                </div>
+
+                <div class="hero-visual">
+                    <div class="photo-decoration"></div>
+
+                    <div class="profile-photo-frame">
+                        <span class="profile-photo-initials"
+                            id="photoFallback">RR</span>
+
+                        <img
+                            id="profilePhoto"
+                            src="https://i.postimg.cc/nrmnNHY1/Whats-App-Image-2026-10-25-at-6-37-26-PM.jpg"
+                            alt="RAMESH R profile photo">
+                    </div>
+
+                    <div class="photo-caption">
+                        <span class="status-dot"></span>
+                        Student Developer
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- About -->
+        <section class="section" id="about">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">GET TO KNOW ME</p>
+                    <h2>About <span>Me</span></h2>
+                    <p>A little introduction about my journey and interests.</p>
+                </div>
+
+                <div class="about-card">
+                    <div class="about-icon">🚀</div>
+
+                    <div>
+                        <h3>My Journey in Technology</h3>
+
+                        <p>
+                            I am RAMESH R, a B.Sc. Information Technology
+                            second-year student interested in web development
+                            and frontend design. I enjoy creating websites
+                            that are attractive, responsive and easy to use.
+                        </p>
+
+                        <p>
+                            My learning journey includes HTML for structure,
+                            CSS for styling and JavaScript for interactivity.
+                            I practise by developing mini-projects that help
+                            me understand programming concepts and solve
+                            everyday problems.
+                        </p>
+
+                        <p>
+                            I believe that consistent practice, creativity and
+                            curiosity are important for becoming a good
+                            developer. My goal is to improve my technical
+                            knowledge, gain practical experience and build
+                            projects that demonstrate my skills and ideas.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education -->
+        <section class="section section-soft" id="education">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">MY ACADEMIC BACKGROUND</p>
+                    <h2>My <span>Education</span></h2>
+                </div>
+
+                <div class="education-card">
+                    <div class="education-icon">🎓</div>
+
+                    <div>
+                        <p class="education-label">CURRENT EDUCATION</p>
+                        <h3>B.Sc. Information Technology</h3>
+                        <p>Second Year</p>
+                        <p class="muted">
+                            Learning programming, web technologies and
+                            computer science fundamentals.
+                        </p>
+                    </div>
+
+                    <span class="education-badge">Pursuing</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="section" id="skills">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">WHAT I AM LEARNING</p>
+                    <h2>My <span>Skills</span></h2>
+                    <p>Technologies I use to create web projects.</p>
+                </div>
+
+                <div class="skills-grid">
+                    <article class="skill-card">
+                        <div class="skill-icon html-icon">5</div>
+                        <h3>HTML</h3>
+                        <p>Creating structured and accessible web pages.</p>
+                        <div class="skill-track">
+                            <span style="width: 80%"></span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon css-icon">3</div>
+                        <h3>CSS</h3>
+                        <p>Designing colourful and responsive layouts.</p>
+                        <div class="skill-track">
+                            <span style="width: 70%"></span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon js-icon">JS</div>
+                        <h3>JavaScript</h3>
+                        <p>Adding interactivity and dynamic behaviour.</p>
+                        <div class="skill-track">
+                            <span style="width: 55%"></span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon tools-icon">⌘</div>
+                        <h3>VS Code & GitHub</h3>
+                        <p>Writing code and learning project management.</p>
+                        <div class="skill-track">
+                            <span style="width: 60%"></span>
+                        </div>
+                    </article>
+                </div>
+
+                <p class="skill-note">
+                    Skill bars are illustrative. Update them to reflect
+                    your actual experience.
+                </p>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="section section-soft" id="projects">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">SOME THINGS I AM BUILDING</p>
+                    <h2>My <span>Projects</span></h2>
+                    <p>Mini-projects that demonstrate my learning.</p>
+                </div>
+
+                <div class="project-filters">
+                    <button class="filter-btn active"
+                        data-filter="all">All Projects</button>
+                    <button class="filter-btn"
+                        data-filter="management">Management</button>
+                    <button class="filter-btn"
+                        data-filter="planning">Planning</button>
+                    <button class="filter-btn"
+                        data-filter="web">Web Design</button>
+                </div>
+
+                <div class="projects-grid" id="projectsGrid">
+
+                    <article class="project-card"
+                        data-category="management">
+                        <div class="project-art art-one">
+                            <span>✓</span>
+                            <p>PLAN · TRACK · COMPLETE</p>
+                        </div>
+
+                        <div class="project-content">
+                            <span class="project-type">01 / MANAGEMENT</span>
+                            <h3>Task and Daily Activity Management System</h3>
+                            <p>
+                                A simple system concept for organising daily
+                                tasks, tracking activities and managing
+                                important work efficiently.
+                            </p>
+
+                            <div class="tag-list">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card"
+                        data-category="web">
+                        <div class="project-art art-two">
+                            <span>✦</span>
+                            <p>PLAN · ORGANISE · CELEBRATE</p>
+                        </div>
+
+                        <div class="project-content">
+                            <span class="project-type">02 / WEB DESIGN</span>
+                            <h3>Event Management Website</h3>
+                            <p>
+                                A website concept to display event details,
+                                share schedules and help visitors explore
+                                upcoming events.
+                            </p>
+
+                            <div class="tag-list">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card"
+                        data-category="planning">
+                        <div class="project-art art-three">
+                            <span>📚</span>
+                            <p>LEARN · ORGANISE · ACHIEVE</p>
+                        </div>
+
+                        <div class="project-content">
+                            <span class="project-type">03 / PLANNING</span>
+                            <h3>Student Study Planner</h3>
+                            <p>
+                                A study-planning concept for arranging
+                                subjects, planning study sessions and
+                                keeping track of academic goals.
+                            </p>
+
+                            <div class="tag-list">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+
+                <p class="project-note">
+                    These cards describe project concepts. Update them
+                    as you complete each working project.
+                </p>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="section" id="contact">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">LET'S CONNECT</p>
+                    <h2>Contact <span>Me</span></h2>
+                    <p>
+                        Have a project idea or want to connect? Send a message.
+                    </p>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h3>Let's talk!</h3>
+                        <p>
+                            I am interested in learning, collaborating on
+                            projects and exploring new web development ideas.
+                        </p>
+
+                        <div class="contact-detail">
+                            <span>✉️</span>
+                            <div>
+                                <strong>Email</strong>
+                                <p>Enter your email address here</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-detail">
+                            <span>💻</span>
+                            <div>
+                                <strong>Interests</strong>
+                                <p>Web Development · UI Design · Coding</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form class="contact-form" id="contactForm" novalidate>
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name"
+                                placeholder="Enter your name" required>
+                            <small class="error-message"
+                                id="nameError"></small>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email"
+                                placeholder="you@example.com" required>
+                            <small class="error-message"
+                                id="emailError"></small>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" rows="5"
+                                placeholder="Write your message here..."
+                                required></textarea>
+                            <small class="error-message"
+                                id="messageError"></small>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary submit-btn">
+                            Validate Message
+                        </button>
+
+                        <p class="form-feedback" id="formFeedback"
+                            role="status" aria-live="polite"></p>
+
+                        <p class="form-note">
+                            This demo validates your details in the browser.
+                            It does not send an email.
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <a href="#home" class="logo">RAMESH<span>.</span></a>
+            <p>Designed and built by RAMESH R</p>
+            <p>© <span id="currentYear"></span> All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
